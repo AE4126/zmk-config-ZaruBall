@@ -107,7 +107,7 @@
         JIS_7_KEY_US: JIS_7_KEY_US {
             compatible = "zmk,behavior-mod-morph";
             label = "JIS_7_KEY_US";
-            bindings = <&kp N7>, <&kp N6>;
+            bindings = <&kp N7>, <&kp LS(N6)>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
